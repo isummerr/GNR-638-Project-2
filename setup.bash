@@ -2,7 +2,7 @@
 set -euo pipefail
 
 readonly ENV_NAME="gnr_project_env"
-readonly REPO_URL="${REPO_URL:-https://github.com/souparna21/gnr638-project-2.git}"
+readonly REPO_URL="${REPO_URL:-https://github.com/isummerr/GNR-638-Project-2.git}"
 
 echo "==> Step 1/4: fetch repo content into current directory"
 if [ -f "inference.py" ]; then
